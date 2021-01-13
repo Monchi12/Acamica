@@ -1,0 +1,88 @@
+
+body {
+    background: #6eedf7;
+    background: -webkit-linear-gradient(to right, #6eedf7, #01be70);
+    background: linear-gradient(to right, #6eedf7, #01be70);
+
+}
+
+.inicio{
+  margin-top: 1%;
+}
+
+img{
+  border-radius: 50%;
+  padding: 5px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Inicio del CV*/
+
+.itemsCV {
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagina{
+  display: flex;
+  background: #ffffff;
+  margin-bottom: 5%;
+  padding: 2%;
+  width: 100%;
+  text-align: left;
+}
+
+
+.contenido{
+  width: 100%;
+}
+
+
+h2{
+  color: #ffffff;
+}
+
+
+.pagina div .btn{
+  margin-left: 45%;
+}
+.pagina .contenido hr { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+.pagina .contenido hr:before  {
+    display: block; 
+    content: ""; 
+    height: 30px; 
+    margin-top: -31px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 0 0 1px 0; 
+    border-radius: 20px; 
+  /*background-image: linear-gradient(left, #fff, #000, #fff);*/
+}
+
+.imgPorfolio{
+  float: left;
+}
+
+/*Fin del CV*/
+
+/*Inicio de Pie de Pagina*/
+footer {
+  padding: 5px;
+  background: #2f302f;
+  font: normal 1em;
+  color: #f0f0f0;
+  text-align: center;
+}
+/*Fin de Pie de Pagina*/
